@@ -1,1 +1,596 @@
-Hello World
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Nolawi Petros</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Nolawi Petros
+					</h1>
+					<h2>
+						UI Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">nolawi.petros@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">202-486-4282</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://nolawi.github.io/myresume/">https://nolawi.github.io/myresume/</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I am a FullStack Javascript Developer and UI/UX enthusiast. This is my resume in JSON Format, this way I can use it with various stacks. I orginally built this in Backbone/Marrionette in 2012 as I was testing the it as a solution for a Global-Header/SSOlogin solution for College Board. Its changed forms many times as purely a learning tool. I have a real resume somewhere.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="ttps://www.twitter.com/nolawi">nolawi</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIN
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/nolawi/">nolawi</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.github.com/nolawi">nolawi</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Geographic Society</span>
+					<span class="date">
+						Feb, 2017 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://nationalgeographic.org">http://nationalgeographic.org</a>
+				</div>
+				<div class="position">
+					Javascript Developer
+				</div>
+				<div class="summary">
+					<p>This was a big Python/Django/+++etc, Quick redesign, lots of architectural changes. Lot of Django. FUN! we built some really cool ui. Great Team!</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Some react work, with state. And had never used UI Kit, its a little bulky but flexibile. </li>
+					<li class="bullet">attempted to create a pattern lab styleguide integrated with main app but not enough time.</li>
+					<li class="bullet">I read Atomic Design for Brad Frost. And pattern libraries</li>
+					<li class="bullet">This designers know UX! </li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>American Chemical Society</span>
+					<span class="date">
+						Dec,2014 — Jan 2017
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.acs.org">http://www.acs.org</a>
+				</div>
+				<div class="position">
+					Sr. JavaScript Developer
+				</div>
+				<div class="summary">
+					<p>One big humongous app for the main site with lots of moving parts. Adobe Expreince Manager java based CMS. I did a lot of work to modularazie components, built sytems to rapidly design and develope microsites. Successfully upgraded from bootrap 1 to 3. Made static assets sharable between half a dozen apps in different platforms. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Built UI and components for new site inchemistry.org, we thought mobile first here.</li>
+					<li class="bullet">Solved lots of issues on legacy apps, not fun.</li>
+					<li class="bullet">Started to like CSS preprocessors. I LOVE SASS.</li>
+					<li class="bullet">Got really good with coffescript but have since dropped it in order to learn ES6</li>
+					<li class="bullet">I left things at a lot better place, although I didnt have time to standardize evert thing, too many apps! </li>
+					<li class="bullet">There were lots of individual react components on top of the main site, yuck but I got pretty good with JSX.</li>
+					<li class="bullet">Didn&#x27;t really get into flux or redux, till I saw a person speak about how to solved facebook chat. Redux/React is so so cool.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Collegeboard</span>
+					<span class="date">
+						Nov 2012 – May 2013 — Oct,2013- Dec,2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.collegeboard.org/">https://www.collegeboard.org/</a>
+				</div>
+				<div class="position">
+					Sr. User Interface Engineer
+				</div>
+				<div class="summary">
+					<p>The best set of UI developers here. Accessibilty, Accessibilty and more Accessibilty. Lots of DOM manipulations. I built my first bootrap site APStudents.org. Lots of features on different platforms, including some php/drupal work, as well as features on java. I was the guy that said lets build it in Backbone. I built lots of prototypes in Backbone and Collegeboard, variation of a bootstrap styleguide. In order to scaffold UI for design team rapidly then moving to various stacks templatinbg system. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">So much fun here, I loved my time. Front End Development was code reviewed. </li>
+					<li class="bullet">Agile Agile, strict Agile</li>
+					<li class="bullet">Fun little app with api integrated sso, to globalize menu and login and styleguide. I attempted to do this in angular but settled in Backbone/Marrionette.</li>
+					<li class="bullet">Everything is fully responsive and tested in every device. QA team is huge, nothing ever goes live not working. </li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Amazon</span>
+					<span class="date">
+						May 2013 — Oct, 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.Amazon.com/">https://www.Amazon.com/</a>
+				</div>
+				<div class="position">
+					Sr. User Interface Engineer
+				</div>
+				<div class="summary">
+					<p>I was given a great opportunity to help a talented developer/mentor. We built a web based ipad app for AWS in Backbone and Foundation. I built the views layer.  Super cool little app that was tested for use in AWS Server sites. Unfortuntely, I hated driving to Ashburn everyday and left. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Learned to use command line built systems.</li>
+					<li class="bullet">Free Pizza Fridays, BADIDEA</li>
+					<li class="bullet">Made some friends too but most have left AWS</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Usa Today</span>
+					<span class="date">
+						Mar  2012 — Nov 2012
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.usatoday.com/">https://www.usatoday.com/</a>
+				</div>
+				<div class="position">
+					Sr. User Interface Engineer
+				</div>
+				<div class="summary">
+					<p>The goal was to build a new Python/Django app that with data from an api in 7 months for their 25th anniversary rebrand. The api controls the templates, Django based conditions based on api. I was on the sports section, specifically dealing with stats from many endpoints in different Format. I built all the scores/standings/ stats pages. We were able to model the data in to use same templates for different sports. Learned a lot. Crazy crazy hours, averaged 60 hours or more.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Coolest thing is that that app is being used on every Gannett owned publications.</li>
+					<li class="bullet">Proud because I used the stats page everyweek.</li>
+					<li class="bullet">Ping Pong, I played so much, got so much better.</li>
+					<li class="bullet">RequireJS, I still use it to solve side effects.</li>
+					<li class="bullet">Found Sublime - I was in text+++ ...</li>
+					<li class="bullet">Git git git git - Love git</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>HomeSnap</span>
+					<span class="date">
+						Jan  2011 — Mar 2012
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.usatoday.com/">https://www.usatoday.com/</a>
+				</div>
+				<div class="position">
+					UI/UX
+				</div>
+				<div class="summary">
+					<p>Always wanted to work at a startup, employee number 6. Was involved in all aspects of UI/UX from concepts to creation. Did a lot of work with google maps api. interface for mobile, design of native app. One cool project to AI api that basically wrote content based on data over time. The app generated content. Although I mostly did the UI. Flexibile schedule thus was able to do some cool freelance projects.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">How cool is the HomeSnap app, take a picture and see the price of a house. I was there when the idea came up.</li>
+					<li class="bullet">It works via Geolocation, your phones compass and tax records api.</li>
+					<li class="bullet">Asp/visual studio with TFS, YUCK</li>
+					<li class="bullet">Learned a lot about VC stuff. </li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Geico</span>
+					<span class="date">
+						Jan  2009 — Dec 2010
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.Geico.com/">https://www.Geico.com/</a>
+				</div>
+				<div class="position">
+					UI/UX
+				</div>
+				<div class="summary">
+					<p>By the time I got on board, they had a Java/ Mainframe app with 220 templates for each scenario, with different css for each page. Design guideline was given to me and then I went to work, it took 23 months hired with two junior UI developers. Left the app with one css style, responsive for mobile. Dojo UI, Jquery. Thousands of lines of css. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Fortunately for me the guy I was suppose to work with on the designs, left before I got started. Gave me a huge opportunity to develop ui ane styleguide for one of the largest applications in the world.</li>
+					<li class="bullet">The business people that owned sections of the app new their business, learned a lot about audience type. Genrall Call-to-action in every page. </li>
+					<li class="bullet">GECKO stuff</li>
+					<li class="bullet">I got really lucky to dop this project. Timing is everything!</li>
+					<li class="bullet">my first usability testing</li>
+					<li class="bullet">Did a google like logo change thing for holidays. Kinda cool, but we only changed the jpp logo. So web 2.0</li>
+					<li class="bullet"></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>webMethods | Software AG,</span>
+					<span class="date">
+						June 2006 —  Nov 2008
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://www.Geico.com/">https://www.Geico.com/</a>
+				</div>
+				<div class="position">
+					Webdesigner
+				</div>
+				<div class="summary">
+					<p>This was the last time I had a stricly design position. I was working in the market team of a huge software compony. In the middle of it there was corporate take over. And the new company wanted to rebrand. Kinda like when Sprint merged nextel and became yellow. I learned a lot about marketing, did tones and tones of print design stuff. I was using dreamweaver to develop front end. Tableless was the thing then. </p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">prototypes, and jquery days</li>
+					<li class="bullet">I did a few wordpress sites.</li>
+					<li class="bullet">I designed tradeshow booths.</li>
+					<li class="bullet">I had way too much design work.</li>
+					<li class="bullet">I was really a graphic designer.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>RMCAD</span>
+					<span class="date">
+						 — 
+					</span>
+				</h4>
+				<div class="area">
+					Graphic Design
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Design Design Design</li>
+					<li>I found Photoshop</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>User Interface Level</h4>
+				</div>
+				<ul class="keywords">
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Javascript Frameworks</h4>
+				</div>
+				<ul class="keywords">
+					<li>React</li>
+					<li>Vue</li>
+					<li>UI libraries</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Hobbies</h4>
+				</div>
+				<ul class="keywords">
+					<li>Biking</li>
+					<li>Building stuff.</li>
+					<li>Reading UI stuff online.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>It is my pleasure to recommend Nolawi, his performance working as a consultant for Hooli proved that he will be a valuable addition to any company.</p>
+					<p class="name">
+						<strong>— Gavin Belson</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
